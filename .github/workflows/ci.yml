@@ -17,7 +17,7 @@ jobs:
     - name: Install pytest
       run: pip install pytest
     - name: Run test cases
-      run: pytest test1
+      run: pytest test1.py
   run-program:
     needs: [test-program]
     runs-on: ubuntu-latest
