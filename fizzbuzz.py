@@ -1,7 +1,8 @@
 def fizzbuzz(number):
     if type(number)==int:
-        #if number %15==0:
-        if number %3==0 and number%5==0:
+        if str (number).find('7')>=0:
+            return 'github'
+        elif number %3==0 and number%5==0:
             return 'fizzbuzz'
         elif number % 3==0:
             return 'fizz'
